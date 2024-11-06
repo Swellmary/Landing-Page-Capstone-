@@ -64,7 +64,6 @@ body {
     flex-wrap: nowrap;
 }
 
-
 .main-cover .bgimg {
     float: right;
 }
@@ -108,16 +107,6 @@ footer {
     padding: 1rem;
 }
 
-footer .contact_us {
-    margin-left: 30%;
-    transition: transform 0.3s ease;
-    text-decoration: none;
-    color: black;
-}
-
-footer .contact_us:hover {
-    text-decoration: underline;
-}
 
 @media screen and (max-width: 1039px) {
     body {
@@ -164,7 +153,7 @@ footer .contact_us:hover {
     .main-cover a {
         width: 30%;
     }
-}
+}   
 @media screen and (max-width: 367px) {
     body {
       background-color: white(207, 255, 224);
@@ -173,12 +162,12 @@ footer .contact_us:hover {
         width: 40%;
     }
     .header li{
-        margin-inline: 0;
-        padding: ;   
+        display: none;
     }
-    footer .contact_us {
-        margin-left: 5%;
-    }
-    
 
+}
+@media screen and (max-width: 367px) {
+    .main-cover a {
+        width: 45%;
+    }
 }
